@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        /* border: 2px solid red; */
+        height: 100vh;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .child1{
+        /* border:2px solid blue; */
+        height: 300px;
+        width: 300px;
+    }
+    .child2{
+        /* border: 2px solid blue; */
+        margin-top: -80px;
+        height: 275px;
+        width: 280px;
+        display: flex;
+        justify-content:first baseline;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+        box-shadow:0px 0px 14px rgb(68, 65, 65);
+        border-radius: 10px;
+    }
+    /* form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 10px;
+    } */
+    .input{
+        padding:5px;
+    }
+    input{
+        padding: 18px ;
+        width: 300px;
+        height: 10px;
+        border-radius: 5px;
+        border: 2px solid grey
+    }
+    .butt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .butt1{
+        padding-top: 30px;
+    }
+    button{
+        width: 340px;
+        padding: 13px;
+        border-radius: 5px;
+        color:white;    
+        background-color:rgb(8,102,255);
+        font: 16px Helvetica, Arial, Sans-serif;
+        border: none;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <h1 style="font-size:70px ;font-family:  Helvetica, Arial, Sans-serif; margin-top: -30px; color: rgb(8,102,255);">facebook</h1>
+            <p>Connect with friends and the wold around you on facebook</p>
+        </div>
+        <div class="child2">
+           
+                <div class="input">
+                    <input type="text" placeholder="Email or phone number">
+                </div>
+                <div class="input">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="butt">
+                    <button>Log in</button>
+                </div>  
+                <a style="padding-top: 15px;">Forgot Password?</a>
+                <!-- <hr style="border: 20px solid black;">        -->
+                 <div class="butt1">
+                    <button style="width: 180px; background-color: #42B72A;border: none;"> Create new account</button>
+                 </div>
+        </div>
+    </div>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66ad069332dca6db2cb9535c/1i49u3cng';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>
